@@ -83,11 +83,4 @@ public class CheckDateFormat {
             break;
         }
     }
-
-    public static void main(String[] args) throws Exception {
-        CheckDateFormat a = new CheckDateFormat();
-        a.checkPhone(a.getValue("Phone Number: "));
-        a.checkDay(a.getValue("Date: "));
-        a.checkEmail(a.getValue("Email: "));
-    }
 }
